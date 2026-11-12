@@ -1,0 +1,9 @@
+
+services:
+  mario:
+    build: .
+    container_name: mario-game
+    ports:
+      - "8080:8080"
+    restart: always
+
